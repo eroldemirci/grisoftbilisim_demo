@@ -1,16 +1,24 @@
 # grisoftware_demo
 
-A new Flutter project.
+Projemiz, verilen uzun linkleri https://app.shrtco.de/docs sitesinin API sistemini kullanarak kısa linke çeviren, bu linkleri bir sayfada listelediğimiz ve bu linkleri kopyalayabildiğimiz bir demo uygulaması.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Tasarımlar responsive bir şekilde tasarlanmıştır.
+State management olarak GetX tercih edilmiştir.
+MVVM mimarisi kullanılmıştır.
+Locale Database olarak Sqflite tercih edilmiştir.
 
-A few resources to get you started if this is your first Flutter project:
+## Kullanılan paketler :
+flutter_svg
+fluttertoast
+get
+http
+path
+shared_preferences
+smooth_page_indicator
+sqflite
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Service bağlantı mimarisi, ui -> controller -> repository -> service -> api   olarak dizaynlanmıştır.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
